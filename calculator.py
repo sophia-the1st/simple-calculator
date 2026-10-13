@@ -66,13 +66,13 @@ def is_number(num):
 def perform_calculation(num1, num2, operation):
     match operation:
         case "1":
-            add(num1, num2)
+            return add(num1, num2)
         case "2":
-            subtract(num1, num2)
+             return subtract(num1, num2)
         case "3":
-            multiply(num1, num2)
+             return multiply(num1, num2)
         case "4":
-            divide(num1, num2)
+             return divide(num1, num2)
         case _:
             print("\nInvalid operation.")
             
